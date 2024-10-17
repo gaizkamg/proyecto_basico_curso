@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* RESET */
+
+      * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+      }
+
+      /* Código página */
+
+      header,
+      nav,
+      main,
+      footer {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      header {
+        min-height: 8rem;
+        background-color: pink;
+      }
+
+      nav {
+        width: 80%;
+        min-height: 4rem;
+        background-color: orange;
+
+      }
+
+      main {
+        width: 80%;
+        min-height: 20rem;
+        background-color: lightblue;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      footer {
+        width: 80%;
+        min-height: 4rem;
+        background-color: chartreuse;
+      }
+      
+      .ponerBorde {
+        border: 0.3rem solid black;
+      }
+
+      main div {
+        min-height: 5rem;
+        width: 30%;
+        background-color: lightgray;
+        border: 0.3rem solid red;
+      }
+
+      .izq {
+        background-color: rgba(215, 221, 48, 0.533);
+      }
+      .drcha {
+        background-color: rgba(140, 215, 65, 1);
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>cabecera</header>
+    <nav class="ponerBorde">menu</nav>
+    <main id="principal">
+      <div class="izq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident assumenda delectus doloribus non. Cumque consequuntur inventore ea iure, ullam facere quisquam libero temporibus dolore culpa alias numquam accusamus explicabo.</div>
+      <div class="drcha">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident assumenda delectus doloribus non. Cumque consequuntur inventore ea iure, ullam facere quisquam libero temporibus dolore culpa alias numquam accusamus explicabo.</div>
+      <div class="izq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident assumenda delectus doloribus non. Cumque consequuntur inventore ea iure, ullam facere quisquam libero temporibus dolore culpa alias numquam accusamus explicabo.</div>
+      <div class="drcha">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident assumenda delectus doloribus non. Cumque consequuntur inventore ea iure, ullam facere quisquam libero temporibus dolore culpa alias numquam accusamus explicabo.</div>
+    </main>
+    <footer class="ponerBorde">pie</footer>
+  </body>
+</html>
